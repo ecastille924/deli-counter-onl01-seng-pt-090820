@@ -7,7 +7,7 @@ def line(names)
     positions = names.map.with_index(1) {|name, index|"#{index}. #{name}"
     stringed_positions = positions.join(" ")
     puts "The line is currently: " +stringed_positions
-    
+  end
 end 
 
 def take_a_number(katz_deli, name)

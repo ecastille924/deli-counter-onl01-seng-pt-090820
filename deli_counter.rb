@@ -1,9 +1,10 @@
 katz_deli = []
 
-def line(katz_deli)
-  if katz_deli.length == 0
+def line(names)
+  if names.empty?
     puts "The line is currently empty."
   else
+    positions = names.map.with_index(1) {|name, index "#{"
     puts "The line is currently "
     
 end 

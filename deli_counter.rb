@@ -1,10 +1,11 @@
 katz_deli = []
 
-def line
-
+def line(katz_deli)
+  counter = 1 
+  
 end 
 
-def take_a_number(array, name)
+def take_a_number(katz_deli, name)
   
 end 
 

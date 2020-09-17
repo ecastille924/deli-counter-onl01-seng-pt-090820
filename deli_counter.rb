@@ -10,10 +10,16 @@ def line(names)
   end
 end 
 
-def take_a_number(katz_deli, name)
-  
+def take_a_number(names, name_to_add)
+  names.push(name_to_add)
+  puts "Welcome, #{name_to_add}. Youa re number #{names.length} in line."
 end 
 
-def now_serving
-  
+def now_serving(names)
+  if names.empty?
+    puts "There is nobody waiting to e served!"
+  else
+    puts "Currently serving #{names.first}."
+    names.shift
+  end
 end 

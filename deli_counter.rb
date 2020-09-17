@@ -4,7 +4,7 @@ def line(names)
   if names.empty?
     puts "The line is currently empty."
   else
-    positions = names.map.with_index(1) {|name, index."#{"
+    positions = names.map.with_index(1) {|name, index| "#{index."
     puts "The line is currently "
     
 end 
